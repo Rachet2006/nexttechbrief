@@ -1,2 +1,2 @@
 # nexttechbrief
-Newsletter login website 
+Newsletter website 
