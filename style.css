@@ -1,14 +1,71 @@
-.social-links {
-  margin-top: 1.5rem;
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f8fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.social-links a {
-  color: #111;
+.newsletter-container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.newsletter-form h1 {
   font-size: 1.8rem;
-  margin: 0 0.5rem;
-  transition: color 0.3s;
+  margin-bottom: 0.5rem;
 }
 
-.social-links a:hover {
-  color: #e1306c; /* Instagram pink */
+.newsletter-form p {
+  color: #555;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.newsletter-form input[type="email"] {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.newsletter-form button {
+  width: 100%;
+  background-color: #1677be;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+  background-color: #0e5f9a;
+}
+
+.guarantee {
+  font-size: 0.8rem;
+  color: #888;
+  margin-top: 1rem;
+}
+
+.powered-by {
+  font-size: 0.75rem;
+  color: #aaa;
+  text-decoration: none;
+  display: block;
+  margin-top: 0.5rem;
 }
