@@ -10,7 +10,7 @@ export default function NewsletterLandingPage() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch('/api/subscribe', {
+    const res = await fetch('/.netlify/functions/subscribe', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ name, email }),
