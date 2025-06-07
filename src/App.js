@@ -20,7 +20,7 @@ export default function NewsletterLandingPage() {
 
   return (
     <div className="min-h-screen bg-black text-white flex flex-col items-center px-6 py-12">
-      <img src="/logo.png" alt="NTB Logo" className="w-32 mb-4" />
+      <img src="/download.png" alt="NTB Logo" className="w-32 mb-4" />
       <h1 className="text-4xl md:text-5xl font-bold text-center">
         The <span className="text-[#F59E0B]">NextTech Brief</span>
       </h1>
